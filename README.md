@@ -1,3 +1,3 @@
-# Word Embeddings
+# WordEmbeddings
 
-This repo consists of code and all documenation for the FYP titled "Comparative Analysis of Different Word Embedding Techniques"
+This repo consists of all the code and documentaion for the FYP titled "Comparative Analysis of Different Word Embedding Techniques"
