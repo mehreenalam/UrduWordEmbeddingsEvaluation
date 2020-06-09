@@ -22,7 +22,8 @@ This repo consists of all the code and documentation for this Final Year Project
 ## Running Code Guidelines
 ### All files here can be run and used with Google Colab after adjusting the variables described below
 ### Data used to train these models can be found on the following link:
-https://drive.google.com/drive/folders/1jzVDFuqtJtjz7n1l1Gx6Rx_RiEOLCgTn?usp=sharing
+**Corpora:** https://drive.google.com/drive/folders/1jzVDFuqtJtjz7n1l1Gx6Rx_RiEOLCgTn?usp=sharing
+**Twitter Dataset:** https://docs.google.com/spreadsheets/d/1APYKAhQWUZlyoqiwu-gNFcQYl5Y5DoqzH-btQMLgkSM/edit?usp=sharing
 ### Saved Models:
 https://drive.google.com/drive/folders/1X3Q75LzDhEhrxj1nICTxSbP1PkqxV_N0?usp=sharing
 ### Code Files:
@@ -33,7 +34,7 @@ https://drive.google.com/drive/folders/1X3Q75LzDhEhrxj1nICTxSbP1PkqxV_N0?usp=sha
 4. **train_fasttext.ipynb** - To run this file adjust path, root and filename variables according to path of the data text file
 5. **evaluating_urdu_models.ipynb** - Adjust variables base and paths under the paths section to load models
 6. **evaluating_roman_urdu_models.ipynb** - Adjust variables base and paths under the paths section to load models
-7. **evaluating_roman_urdu_models_sa.ipynb** - Adjust paths in defining paths section and also colab specific statements section to paths of saved models
+7. **evaluating_roman_urdu_models_sa.ipynb** - Adjust paths in defining paths section and also colab specific statements section to paths of saved models, twitter dataset link provided in the link above
 8. **eval_bert_xnli.ipynb** - Model checkpoints for BERT are stored in GCP Buckets, furthermore XNLI dataset would have to be downloaded from: https://cims.nyu.edu/~sbowman/xnli/ to run this file
 9. **extract_bert_embeddings_roman.ipynb** - This file can only be run through our account axclusively as it requires use of a saved model on GCP to which we have access.
 10. **extract_bert_embeddings_urdu.ipynb** - This file can only be run through our account axclusively as it requires use of a saved model on GCP to which we have access.
