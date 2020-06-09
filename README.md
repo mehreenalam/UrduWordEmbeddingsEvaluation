@@ -47,3 +47,4 @@ https://drive.google.com/drive/folders/1X3Q75LzDhEhrxj1nICTxSbP1PkqxV_N0?usp=sha
 3. https://github.com/tthustla/twitter_sentiment_analysis_part11/blob/master/Capstone_part11.ipynb
 4. https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-11-cnn-word2vec-41f5e28eda74
 5. https://towardsdatascience.com/pre-training-bert-from-scratch-with-cloud-tpu-6e2f71028379
+6. https://github.com/stanfordnlp/GloVe
