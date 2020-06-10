@@ -42,8 +42,8 @@ https://drive.google.com/drive/folders/1X3Q75LzDhEhrxj1nICTxSbP1PkqxV_N0?usp=sha
 11. **extract_elmo_embeddings_urdu.ipynb** - Variables such as vocab_file, options_file, weight_file, outfile, json_file have to be adjusted according to the Path of the saved Urdu Model in the link to the models provided above.
 12. **train_bert.ipynb** - PRC_DATA_FPATH has to be adjusted according to the data file location, GCP access is required to run this file
 13. **train_elmo.ipynb** - Path to corpus has to be adjusted in load_corpus call, model language to train on has to be selected in the beginning
-14. **evaluating_roman_urdu_models_sa_elmo.ipynb** - Adjust paths in paths section of by setting elmo_path and tweets_path. Link to twitter dataset is provided above.
-15. **evaluating_roman_urdu_models_sa_bert.ipynb** - Adjust paths in paths section of by setting bert_path and tweets_path. Link to twitter dataset is provided above.
+14. **evaluating_roman_urdu_models_sa_elmo.ipynb** - Adjust paths in paths section by setting elmo_path and tweets_path. Link to twitter dataset is provided above.
+15. **evaluating_roman_urdu_models_sa_bert.ipynb** - Adjust paths in paths section by setting bert_path and tweets_path. Link to twitter dataset is provided above.
 
 ## References
 1. https://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html
