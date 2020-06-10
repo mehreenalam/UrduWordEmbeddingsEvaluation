@@ -1,4 +1,4 @@
-# WordEmbeddings
+# Word Embeddings
 
 **Project Title**: Comparative Analysis of Different Word Embedding Techniques
 
@@ -20,30 +20,29 @@ This repo consists of all the code and documentation for this Final Year Project
 5. **Summaries** - contains the summaries of the papers we studied in detail for our mid-evaluation
 
 ## Running Code Guidelines
-### All files here can be run and used with Google Colab after adjusting the variables described below
-### Data used to train these models can be found on the following link:
-**Corpora:** https://drive.google.com/drive/folders/1jzVDFuqtJtjz7n1l1Gx6Rx_RiEOLCgTn?usp=sharing
+All files here can be run and used with Google Colab after adjusting the variables described below
 
-**Twitter Dataset:** https://docs.google.com/spreadsheets/d/1APYKAhQWUZlyoqiwu-gNFcQYl5Y5DoqzH-btQMLgkSM/edit?usp=sharing
-### Saved Models:
+Data used to train these models can be found on the following link:
+1. **Corpora:** https://drive.google.com/drive/folders/1jzVDFuqtJtjz7n1l1Gx6Rx_RiEOLCgTn?usp=sharing
+2. **Twitter Dataset:** https://docs.google.com/spreadsheets/d/1APYKAhQWUZlyoqiwu-gNFcQYl5Y5DoqzH-btQMLgkSM/edit?usp=sharing
+
+## Saved Models:
 https://drive.google.com/drive/folders/1X3Q75LzDhEhrxj1nICTxSbP1PkqxV_N0?usp=sharing
-### Code Files:
 
-1. **counting_words.ipynb** - To run this file adjust path and file_name variables according to path of the data text file
-2. **data_preprocessing.ipynb** - To run this file adjust input_file variable to name of file that is to be pre-processed
-3. **train_word2vec.ipynb** - To run this file adjust path and file_name variables according to path of the data text file
-4. **train_fasttext.ipynb** - To run this file adjust path, root and filename variables according to path of the data text file
-5. **evaluating_urdu_models.ipynb** - Adjust variables base and paths under the paths section to load models
-6. **evaluating_roman_urdu_models.ipynb** - Adjust variables base and paths under the paths section to load models
-7. **evaluating_roman_urdu_models_sa.ipynb** - Adjust paths in defining paths section and also colab specific statements section to paths of saved models, twitter dataset link provided in the link above
-8. **eval_bert_xnli.ipynb** - Model checkpoints for BERT are stored in GCP Buckets, furthermore XNLI dataset would have to be downloaded from: https://cims.nyu.edu/~sbowman/xnli/ to run this file
-9. **extract_bert_embeddings_roman.ipynb** - This file can only be run through our account axclusively as it requires use of a saved model on GCP to which we have access.
-10. **extract_bert_embeddings_urdu.ipynb** - This file can only be run through our account axclusively as it requires use of a saved model on GCP to which we have access.
-11. **extract_elmo_embeddings_urdu.ipynb** - Variables such as vocab_file, options_file, weight_file, outfile, json_file have to be adjusted according to the Path of the saved Urdu Model in the link to the models provided above.
-12. **train_bert.ipynb** - PRC_DATA_FPATH has to be adjusted according to the data file location, GCP access is required to run this file
-13. **train_elmo.ipynb** - Path to corpus has to be adjusted in load_corpus call, model language to train on has to be selected in the beginning
-14. **evaluating_roman_urdu_models_sa_elmo.ipynb** - Adjust paths in paths section by setting elmo_path and tweets_path. Link to twitter dataset is provided above.
-15. **evaluating_roman_urdu_models_sa_bert.ipynb** - Adjust paths in paths section by setting bert_path and tweets_path. Link to twitter dataset is provided above.
+## Code Files:
+
+1. **count_words.ipynb** - To run this file, adjust path and file_name variables according to path of the data text file
+2. **evaluate_bert_xnli.ipynb** - Model checkpoints for BERT are stored in GCP Buckets, furthermore XNLI dataset would have to be downloaded from: https://cims.nyu.edu/~sbowman/xnli/ to run this file
+3. **evaluate_roman_urdu_models_sa.ipynb** - Adjust paths in defining paths section and also colab specific statements section to paths of saved models, twitter dataset link provided in the link above
+4. **evaluate_roman_urdu_models.ipynb** - Adjust variables base and paths under the paths section to load models
+5. **evaluate_urdu_models.ipynb** - Adjust variables base and paths under the paths section to load models
+6. **extract_bert_embeddings_roman.ipynb** - This file can only be run through our account exclusively as it requires use of a saved model on GCP to which only we have access.
+7. **extract_bert_embeddings_urdu.ipynb** - This file can only be run through our account exclusively as it requires use of a saved model on GCP to which only we have access.
+8. **preprocess_data.ipynb** - To run this file, adjust input_file variable to name of file that is to be pre-processed
+9. **train_bert.ipynb** - PRC_DATA_FPATH has to be adjusted according to the data file location, GCP access is required to run this file
+10. **train_elmo.ipynb** - Path to corpus has to be adjusted in load_corpus call, model language to train on has to be selected in the beginning
+11. **train_fasttext.ipynb** - To run this file, adjust path, root and filename variables according to path of the data text file
+12. **train_word2vec.ipynb** - To run this file, adjust path and file_name variables according to path of the data text file
 
 ## References
 1. https://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html
